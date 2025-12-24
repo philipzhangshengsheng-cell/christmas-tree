@@ -80,7 +80,9 @@ const photoUrls = [
   "https://philipzhangshengsheng-cell.github.io/christmas-tree/img4.png",
   "https://philipzhangshengsheng-cell.github.io/christmas-tree/img5.png",
   "https://philipzhangshengsheng-cell.github.io/christmas-tree/img6.png",
-  "https://philipzhangshengsheng-cell.github.io/christmas-tree/img7.png"
+  "https://philipzhangshengsheng-cell.github.io/christmas-tree/img7.png",
+  "https://philipzhangshengsheng-cell.github.io/christmas-tree/img8.png",
+  "https://philipzhangshengsheng-cell.github.io/christmas-tree/img9.png"
 ];
 
 photoUrls.forEach((url, i) => {
