@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Merry Christmas 涂小宝</title>
   <style>
     html, body {
@@ -9,23 +9,24 @@
       padding: 0;
       overflow: hidden;
       background: black;
+      font-family: "PingFang SC", sans-serif;
     }
     #video {
-      display: none; /* 摄像头隐藏 */
+      display: none;
     }
   </style>
 </head>
 <body>
+
   <video id="video"></video>
 
-  <!-- Three.js -->
+  <!-- Three.js 全局版本 -->
   <script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js"></script>
 
-  <!-- MediaPipe Hands & Camera -->
+  <!-- MediaPipe Hands -->
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
 
-  <!-- 主脚本 -->
   <script src="main.js"></script>
 </body>
 </html>
