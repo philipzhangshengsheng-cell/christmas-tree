@@ -50,13 +50,13 @@ treeGroup.add(tree);
 
 /********** 3. 照片装饰（7 张） **********/
 const photoUrls = [
-  "./img1.png",
-  "./img2.png",
-  "./img3.png",
-  "./img4.png",
-  "./img5.png",
-  "./img6.png",
-  "./img7.png"
+  "https://philipzhangshengsheng-cell.github.io/christmas-tree/img1.png",
+  "https://philipzhangshengsheng-cell.github.io/christmas-tree/img2.png",
+  "https://philipzhangshengsheng-cell.github.io/christmas-tree/img3.png",
+  "https://philipzhangshengsheng-cell.github.io/christmas-tree/img4.png",
+  "https://philipzhangshengsheng-cell.github.io/christmas-tree/img5.png",
+  "https://philipzhangshengsheng-cell.github.io/christmas-tree/img6.png",
+  "https://philipzhangshengsheng-cell.github.io/christmas-tree/img7.png"
 ];
 photoUrls.forEach((url, i) => {
   const texture = new THREE.TextureLoader().load(url);
